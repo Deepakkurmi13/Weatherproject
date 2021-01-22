@@ -1,0 +1,301 @@
+                        @import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@700;900&display=swap');
+                    * {
+                        font-family: 'Piazzolla', serif;
+                    }
+                    
+                     :root {
+                        --main-bg: #1e272e;
+                        --main-color: #0097e6;
+                    }
+                    
+                    html {
+                        font-size: 80%;
+                    }
+                    
+                    .row {
+                        margin: 0px;
+                    }
+                    /* navber  css*/
+                    
+                    .main-manu {
+                        background-color: var(--main-bg);
+                    }
+                    
+                    .navbar {
+                        color: #fff;
+                        background-color: var(--main-bg);
+                        padding: 1rem 0;
+                    }
+                    
+                    .navber ul li {
+                        margin-left: 3rem;
+                    }
+                    
+                    .navbar ul a {
+                        color: #fff;
+                        font-size: 1rem;
+                    }
+                    
+                    .navbar ul a:hover {
+                        background-color: var(--main-color);
+                    }
+                    
+                    .navbar-toggler {
+                        background-color: gray;
+                        font-size: 0.5rem;
+                    }
+                    
+                    .fa-snowflake {
+                        color: var(--main-color);
+                        transition: all linear;
+                        animation: data 2s linear infinite;
+                    }
+                    
+                    @keyframes data {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }
+                    /* header css*/
+                    
+                    .main_header_left {
+                        height: 40rem;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                    
+                    .main_header_left p {
+                        font-size: 1.2rem;
+                    }
+                    
+                    .main_header_left h1 {
+                        font-size: 1.6rem;
+                        margin: 0.2rem 0 0.5rem 0;
+                        text-transform: capitalize;
+                    }
+                    
+                    .main_header_left span {
+                        color: var(--main-color);
+                    }
+                    
+                    .main_header_left a button {
+                        margin: 1rem 0 0.4rem 0;
+                        box-shadow: 1px 2px 3px -1px #000;
+                    }
+                    
+                    .main_header_right {
+                        height: 40rem;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                    
+                    .main_header_right figure img {
+                        filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+                    }
+                    
+                    .main_header_right1 {
+                        height: 40rem;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                    /* footer css*/
+                    
+                    footer {
+                        position: absolute;
+                        width: 100%;
+                        background-color: var(--main-bg);
+                        bottom: 0;
+                    }
+                    
+                    footer p {
+                        margin: 0;
+                        font-size: 1rem;
+                        color: white;
+                        text-align: center;
+                        line-height: 5rem;
+                    }
+                    /*weather css*/
+                    
+                    .temp_form {
+                        width: 68%;
+                        position: relative;
+                        margin: 5rem 0 3rem 22rem;
+                    }
+                    
+                    .temp_form input[type="text"] {
+                        width: 70%;
+                        text-indent: 1.7rem;
+                        padding: 1rem 1rem 1rem 1rem;
+                        background-color: #1e202b;
+                        color: white;
+                        outline: none;
+                        border: none;
+                        font-size: 1rem;
+                        border-radius: 3rem;
+                    }
+                    
+                     ::placeholder {
+                        color: #bfc1c8;
+                        word-spacing: 0.2rem;
+                    }
+                    
+                    .temp_form input[type="submit"] {
+                        position: absolute;
+                        top: 5px;
+                        right: 230px;
+                        bottom: 5px;
+                        outline: none;
+                        border: none;
+                        background: #009ad8;
+                        padding: 0 3rem;
+                        border-radius: 3rem;
+                        color: white;
+                        font-size: 1rem;
+                    }
+                    
+                    .temp_form input[type="submit"]:hover {
+                        color: #009ad8;
+                        background-color: #fff;
+                    }
+                    
+                    .tempinformation {
+                        width: 25rem;
+                        margin: 4rem 30rem;
+                        height: 20rem;
+                        background-color: #323544;
+                        border-radius: 1rem;
+                        font-family: "roboto", sans-serif;
+                    }
+                    
+                    .top_layer {
+                        width: 100%;
+                        height: 20%;
+                        background-color: #2d303d;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: 1rem;
+                    }
+                    
+                    .top_layer p {
+                        color: #fff;
+                        font-weight: 300;
+                        padding: 2rem;
+                        font-size: 1.1rem;
+                    }
+                    
+                    .main_layer {
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 2rem;
+                    }
+                    
+                    .main_layer #city_name {
+                        padding: 2rem 0;
+                        color: #bfc1c8;
+                        font-weight: 300;
+                        font-size: 1.2rem;
+                    }
+                    
+                    .main_layer .middle_layer {
+                        display: flex;
+                        justify-content: space-around;
+                        color: #fff;
+                    }
+                    
+                    .main_layer p {
+                        font-size: 1rem;
+                        word-spacing: 0.2rem;
+                    }
+                    
+                    .main_layer .middle_layer p,
+                    .main_layer .middle_layer .fa {
+                        font-size: 3rem;
+                        font-weight: 900;
+                    }
+                    
+                    .fa {
+                        color: #009ad8;
+                    }
+                    
+                    sup {
+                        font: 6rem;
+                        margin-top: -2rem;
+                    }
+                    
+                    .data_hide {
+                        visibility: hidden;
+                        transition: all 0.3s linear;
+                    }
+                    
+                    .erring img {
+                        width: 60rem;
+                        height: 30rem;
+                    }
+                    /* mobile view*/
+                    
+                    @media (max-width:768px) {
+                        .main_header_left {
+                            height: auto;
+                            margin: 2rem 0rem;
+                        }
+                        .main_header_right {
+                            height: auto;
+                            margin-top: 1.5rem;
+                        }
+                        .temp_form {
+                            width: 100%;
+                            position: relative;
+                            margin: 3rem 0rem;
+                        }
+                        .tempinformation {
+                            width: 100%;
+                            margin: 1rem 0.2rem;
+                            height: 15rem;
+                            background-color: #323544;
+                            border-radius: 1rem;
+                            font-family: "roboto", sans-serif;
+                        }
+                        .temp_form input[type="text"] {
+                            width: 100%;
+                            padding: 1rem 1rem 1rem 1rem;
+                            background-color: #1e202b;
+                            color: white;
+                            outline: none;
+                            border: none;
+                            font-size: 0.7rem;
+                            border-radius: 3rem;
+                        }
+                         ::placeholder {
+                            color: #bfc1c8;
+                            word-spacing: 0.2rem;
+                        }
+                        .temp_form input[type="submit"] {
+                            position: absolute;
+                            top: 5px;
+                            right: 5px;
+                            bottom: 2px;
+                            outline: none;
+                            border: none;
+                            background: #009ad8;
+                            border-radius: 3rem;
+                            color: white;
+                            width: 10%;
+                            font-size: 0.7rem;
+                        }
+                        .main_layer .middle_layer p,
+                        .main_layer .middle_layer .fa {
+                            font-size: 1.6rem;
+                            font-weight: 900;
+                        }

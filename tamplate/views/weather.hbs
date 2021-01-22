@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   {{>navbar}}
+    <!---- header-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-12 mx-auto">
+                <div class="main_content align-items-center">
+                    <form class="temp_form">
+                        <input type="text" name="cityname" id="cityname" placeholder="Enter your City Name" autocomplete="off">
+                        <input type="submit" id="submitbtn" value="search"> 
+                    </form>
+
+                    <div class="tempinformation">
+                        <div class="top_layer">
+                            <p id="day">monday</p>
+                            <p id="today_data">12jan</p>
+                        </div>
+
+                        <div class="main_layer ">
+                            <p id="city_name">get output hair</p>
+                            <div class="middle_layer data_hide">
+                                
+                                <p id="temp"><span id="temp_real_val">0</span><sup>o</sup>C</p>
+                                <p id="temp_status"><i class="fas fa-cloud"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+{{>footer}}
+  
+<script src="js/main.js">
+<script>
+  const getCurrentDay = () =>{
+      let weekday = new Array(7);
+        weekday[0] = "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] ="Tuesday";
+        weekday[3] = "Wed";
+        weekday[4] = "Tuesday";
+        weekday[5] = "Friday";
+        weekday[6] = "saturday";
+       
+       let currentTime = new Date();
+       days.weekday[currentTime.getDay()];
+       let day = document.getElementById('day');
+
+       day.innerText = days;
+
+};
+ getCurrentDay(); 
+
+</script>
+
+
+</body>
+
+</html>
