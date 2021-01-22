@@ -30,10 +30,7 @@ hbs.registerPartials(partials_path);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-console.log(process.env.KEY_SECURE);
-
-
-
+//console.log(process.env.KEY_SECURE);
 
 
 //routing  
