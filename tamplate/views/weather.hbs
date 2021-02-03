@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Weather</title>
 </head>
 
 <body>
@@ -27,8 +27,8 @@
 
                     <div class="tempinformation">
                         <div class="top_layer">
-                            <p id="day">monday</p>
-                            <p id="today_data">12jan</p>
+                            <p id="day"></p>
+                            <p id="today_data"></p>
                         </div>
 
                         <div class="main_layer ">
@@ -51,20 +51,18 @@
 <script src="js/main.js">
 <script>
   const getCurrentDay = () =>{
-      let weekday = new Array(7);
-        weekday[0] = "Sunday";
-        weekday[1] = "Monday";
-        weekday[2] ="Tuesday";
-        weekday[3] = "Wed";
-        weekday[4] = "Tuesday";
-        weekday[5] = "Friday";
-        weekday[6] = "saturday";
-       
-       let currentTime = new Date();
-       days.weekday[currentTime.getDay()];
-       let day = document.getElementById('day');
+      var d = new Date();
+  var weekday = new Array(7);
+  weekday[0] = "Sunday";
+  weekday[1] = "Monday";
+  weekday[2] = "Tuesday";
+  weekday[3] = "Wednesday";
+  weekday[4] = "Thursday";
+  weekday[5] = "Friday";
+  weekday[6] = "Saturday";
 
-       day.innerText = days;
+  var n = weekday[d.getDay()];
+  document.getElementById("day").innerHTML = n;
 
 };
  getCurrentDay(); 
