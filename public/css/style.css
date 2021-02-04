@@ -6,12 +6,7 @@
                      :root {
                         --main-bg: #1e272e;
                         --main-color: #0097e6;
-                    }
-                    .html
-                    {
-                        font-size: 80%;
-                    }
-                    
+                    } 
                     .row {
                         margin: 0px;
                     }
@@ -24,7 +19,7 @@
                     .navbar {
                         color: #fff;
                         background-color: var(--main-bg);
-                        padding: 1rem 0;
+                        padding: 0.5rem 0;
                     }
                     
                     .navber ul li {
@@ -33,7 +28,7 @@
                     
                     .navbar ul a {
                         color: #fff;
-                        font-size: 1rem;
+                        font-size: 0.8rem;
                     }
                     
                     .navbar ul a:hover {
@@ -62,19 +57,19 @@
                     /* header css*/
                     
                     .main_header_left {
-                        height: 40rem;
+                        height: 30rem;
                         display: flex;
                         justify-content: center;
                         flex-direction: column;
-                        align-items: flex-start;
+                       
                     }
                     
                     .main_header_left p {
-                        font-size: 1.2rem;
+                        font-size: 1.1rem;
                     }
                     
                     .main_header_left h1 {
-                        font-size: 1.6rem;
+                        font-size: 1.2rem;
                         margin: 0.2rem 0 0.5rem 0;
                         text-transform: capitalize;
                     }
@@ -86,60 +81,61 @@
                     .main_header_left a button {
                         margin: 1rem 0 0.4rem 0;
                         box-shadow: 1px 2px 3px -1px #000;
+                        font-size: 0.8rem;
                     }
                     
                     .main_header_right {
-                        height: 40rem;
+                        height: 30rem;
                         display: flex;
                         justify-content: center;
                         flex-direction: column;
-                        align-items: flex-start;
+                       
                     }
                     
                     .main_header_right figure img {
                         filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+
                     }
                     
                     .main_header_right1 {
-                        height: 40rem;
+                        height: 30rem;
                         display: flex;
                         justify-content: center;
                         flex-direction: column;
-                        align-items: flex-start;
+                       
                     }
                     /* footer css*/
                     
                     footer {
-                        position: absolute;
+                        position:fixed;
                         width: 100%;
                         background-color: var(--main-bg);
-                        bottom: 0;
+                        bottom: 0;   
                     }
                     
                     footer p {
-                        margin: 0;
-                        font-size: 1rem;
+                        font-size: 0.8rem;
                         color: white;
                         text-align: center;
-                        line-height: 5rem;
+                        line-height: 3.4rem;
                     }
                     /*weather css*/
                     
                     .temp_form {
                         width: 68%;
                         position: relative;
-                        margin: 5rem 0 3rem 22rem;
+                        margin: 5rem 0 3rem 19rem;
                     }
                     
                     .temp_form input[type="text"] {
                         width: 70%;
                         text-indent: 1.7rem;
-                        padding: 1rem 1rem 1rem 1rem;
+                        padding: 0.8rem;
                         background-color: #1e202b;
                         color: white;
                         outline: none;
                         border: none;
-                        font-size: 1rem;
+                        font-size: 0.8rem;
                         border-radius: 3rem;
                     }
                     
@@ -169,8 +165,8 @@
                     
                     .tempinformation {
                         width: 25rem;
-                        margin: 4rem 30rem;
-                        height: 20rem;
+                        margin: 4rem 23rem;
+                        height: 18rem;
                         background-color: #323544;
                         border-radius: 1rem;
                         font-family: "roboto", sans-serif;
@@ -300,3 +296,55 @@
                             font-size: 1.6rem;
                             font-weight: 900;
                         }
+                        
+                        .main_header_left p {
+                            font-size: 0.9rem;
+                        }
+                        
+                        .main_header_left h1 {
+                            font-size: 1rem;
+                            margin: 0.2rem 0 0.5rem 0;
+                            text-transform: capitalize;
+                        }
+                        
+                        .main_header_left span {
+                            color: var(--main-color);
+                        }
+                        
+                        .main_header_left a button {
+                            margin: 1rem 0 0.4rem 0;
+                            box-shadow: 1px 2px 3px -1px #000;
+                            font-size: 0.8rem;
+                        }
+                        
+                        .main_header_right {
+                            height: 10rem;
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                           
+                        }
+                        
+                        .main_header_right figure img {
+                            filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+    
+                        }
+                        
+                        .main_header_right1 {
+                            height: 30rem;
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                           
+                        }
+                        footer {
+                            position:relative;
+                            width: 100%;
+                            background-color: var(--main-bg);  
+                            top: 40px;;
+                        }
+                        
+                        footer p {
+                            line-height: 2rem;
+                        }
+                    }
