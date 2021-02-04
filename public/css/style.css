@@ -7,8 +7,8 @@
                         --main-bg: #1e272e;
                         --main-color: #0097e6;
                     }
-                    
-                    html {
+                    .html
+                    {
                         font-size: 80%;
                     }
                     
@@ -295,7 +295,8 @@
                             font-size: 0.7rem;
                         }
                         .main_layer .middle_layer p,
-                        .main_layer .middle_layer .fa {
+                        .main_layer .middle_layer .fa 
+                        {
                             font-size: 1.6rem;
                             font-weight: 900;
                         }
