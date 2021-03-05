@@ -13,7 +13,7 @@
 
 ![Screenshot (67)](https://user-images.githubusercontent.com/77047596/110146171-40f79800-7e00-11eb-8902-dc4350587a10.png)
 
-<h5>check temperature of your city</h5>
+<h5>2.check temperature of your city</h5>
 
 ![Screenshot (68)](https://user-images.githubusercontent.com/77047596/110146249-5c62a300-7e00-11eb-9bef-5cafc87e8943.png)
 
