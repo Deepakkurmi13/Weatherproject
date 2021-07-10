@@ -5,7 +5,7 @@
 1.downlaod zip file and extract in nodejs folder.</br>
 2.then open cmd on project location </br>
 3 then type in cmd > nodemon app.js js,hbs </br>
-4.heroku link for demo - https://weather-management-temprature.herokuapp.com/ </br>
+4.heroku link for demo - https://mernstack-weather.herokuapp.com/ </br>
 
 <h1>demo</h1>
 
